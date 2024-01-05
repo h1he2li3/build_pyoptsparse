@@ -1,0 +1,8 @@
+ansicolors
+numpy
+sqlitedict
+packaging
+
+[paropt]
+cython
+mpi4py

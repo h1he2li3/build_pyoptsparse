@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: build_pyoptsparse
+Version: 2.0.10
+Summary: Automated installer for pyOptSparse
+Home-page: http://openmdao.org
+Author: OpenMDAO Team
+Author-email: openmdao@openmdao.org
+License: Apache License
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: ansicolors
+Requires-Dist: numpy
+Requires-Dist: sqlitedict
+Requires-Dist: packaging
+Provides-Extra: paropt
+Requires-Dist: cython; extra == "paropt"
+Requires-Dist: mpi4py; extra == "paropt"
+
+pyOptSparse has several dependencies which can be tricky
+    to build. This script attempts to automate the process as much as possible
+    with command line arguments to customize the functionality.
+    
